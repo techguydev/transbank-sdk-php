@@ -20,7 +20,7 @@ class WSSecuritySoapClient extends \SoapClient {
 
         if ($this->useSSL) {
             $locationparts = parse_url($location);
-            $location = 'http://ryu.kdu.cl:7001';
+            $location = 'http://ryu.kdu.cl:7002';
             // if (isset($locationparts['host']))
             //     $location .= $locationparts['host'];
             // if (isset($locationparts['port'])) {
